@@ -80,7 +80,20 @@
               "destinationAddressPrefix": "*",
               "destinationPortRange": "22"
             }
-          }
+          },
+		  {
+            "name": "APACHE",
+            "properties": {
+              "priority": 102,
+              "protocol": "TCP",
+              "access": "Allow",
+              "direction": "Inbound",
+              "sourceAddressPrefix": "*",
+              "sourcePortRange": "*",
+              "destinationAddressPrefix": "*",
+              "destinationPortRange": "80"
+            }
+			}
         ]
       }
     },
