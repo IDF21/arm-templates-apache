@@ -232,7 +232,7 @@
           "fileUris": [
             "https://raw.githubusercontent.com/azureossd/apache-1/master/install_apache.sh"
           ],
-          "commandToExecute": "[concat('sudo sh install_apache ',variables('adminUsername'))]"
+          "commandToExecute": "[concat('sudo sh install_apache.sh ',variables('adminUsername'))]"
         }
       }
     }
