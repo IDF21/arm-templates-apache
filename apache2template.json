@@ -90,7 +90,7 @@
                 "sourceAddressPrefix": "*",
                 "sourcePortRange": "*",
                 "destinationAddressPrefix": "*",
-                "destinationPortRange": "3000"
+                "destinationPortRange": "80"
               }
             }
           ]
@@ -228,7 +228,7 @@
                 "typeHandlerVersion": "2.0",
                 "autoUpgradeMinorVersion": true,
                 "settings": {
-                  "fileUris": ["https://raw.githubusercontent.com/Kendubu1/samples/main/apache2/apache2.sh"],
+                  "fileUris": ["https://raw.githubusercontent.com/azureossd/apache-2/main/apache2.sh"],
                   "commandToExecute": "[concat('sudo sh apache2.sh ',variables('adminUsername'))]"
                 }
               }
